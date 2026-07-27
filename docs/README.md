@@ -17,8 +17,7 @@ Standalone tools for dataset collection, video processing, and image curation. D
 | **splitter** | Multi-view video splitting + frame extraction | Ported |
 | **collection** | Image quality filter, deduplication, clustering, scraping | Complete |
 | **collection.filters** | CLIP + DINOv2 + Ensemble semantic filtering | Complete |
-| **annotator** | SAM-based interactive segmentation | Partial |
-| **superres** | RealESRGAN image upscaling | Partial |
+| **superres** | RealESRGAN image upscaling | Complete, unused |
 
 ### splitter/
 
@@ -65,6 +64,7 @@ ensemble = EnsembleFilter([clip, dino])  # Weighted voting
 | Document | Content |
 |----------|---------|
 | **[E2E Test Report](e2e_test_report.md)** | Splitter + Curator verification results |
+| **[behavior-lab Boundary](behavior_lab_boundary.md)** | Repository boundary for pose import, feature extraction, and behavior discovery |
 
 ---
 

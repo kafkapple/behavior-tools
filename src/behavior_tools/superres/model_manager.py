@@ -1,7 +1,4 @@
-"""Model manager for super-resolution backends.
-
-TODO: Port from gpu03:~/dev/mouse-super-resolution/src/model_manager.py
-"""
+"""Model manager for super-resolution backends."""
 from __future__ import annotations
 
 from pathlib import Path

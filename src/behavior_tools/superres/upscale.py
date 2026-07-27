@@ -1,7 +1,4 @@
-"""Image upscaling using super-resolution models.
-
-TODO: Port from gpu03:~/dev/mouse-super-resolution/src/upscale.py
-"""
+"""Image upscaling using super-resolution models."""
 from __future__ import annotations
 
 from pathlib import Path

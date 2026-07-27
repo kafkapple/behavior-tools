@@ -37,11 +37,7 @@ superres = [
     "realesrgan>=0.3",
     "basicsr>=1.4",
 ]
-annotator = [
-    "gradio>=4.0",
-    "torch>=2.0",
-]
-all = ["behavior-tools[collection,splitter,superres,annotator]"]
+all = ["behavior-tools[collection,splitter,superres]"]
 dev = [
     "behavior-tools[all]",
     "pytest>=7.0",

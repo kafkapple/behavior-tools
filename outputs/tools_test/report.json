@@ -1,0 +1,49 @@
+{
+  "splitter": {
+    "n_views": 4,
+    "views": [
+      {
+        "name": "test_multiview_view0_0.mp4",
+        "frames": 30,
+        "width": 320,
+        "height": 240
+      },
+      {
+        "name": "test_multiview_view0_1.mp4",
+        "frames": 30,
+        "width": 320,
+        "height": 240
+      },
+      {
+        "name": "test_multiview_view1_0.mp4",
+        "frames": 30,
+        "width": 320,
+        "height": 240
+      },
+      {
+        "name": "test_multiview_view1_1.mp4",
+        "frames": 30,
+        "width": 320,
+        "height": 240
+      }
+    ]
+  },
+  "extractor": {
+    "n_frames_extracted": 6,
+    "array_shape": [
+      5,
+      240,
+      320,
+      3
+    ]
+  },
+  "quality_filter": {
+    "total": 10,
+    "passed": 6,
+    "failed": 4
+  },
+  "deduplicator": {
+    "total": 10,
+    "duplicates_found": 1
+  }
+}
