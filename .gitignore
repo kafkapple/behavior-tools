@@ -35,3 +35,4 @@ models/
 
 # Claude Code
 .claude/
+outputs/
