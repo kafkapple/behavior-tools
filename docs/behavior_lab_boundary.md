@@ -9,6 +9,7 @@ in `behavior-lab` to avoid duplicate feature and clustering implementations.
 | Concern | Repository | Notes |
 |---|---|---|
 | Multi-view video splitting, frame extraction | `behavior-tools` | Feed extracted videos/frames into DLC/SLEAP or benchmark scripts. |
+| AVATAR rig: split at calibrated cell sizes, calibration loading, DLT, residual | `behavior-lab` | `src/behavior_lab/rig/`, entry `docs/avatar_rig.md` (261002). The equal-grid splitter here crops that rig's 1200x1200 bottom camera. |
 | Image/video curation and filtering | `behavior-tools` | CLIP/DINO filtering remains here. |
 | Keypoint-guided SAM2 mask annotation | `sdannce-poc` | `segmentation/kp_sam2.py` + `viewers/mask_annotator.py`. 260727: the SAM1 module here was deleted — unused, `segment-anything` not installed anywhere, superseded. |
 | Pose loaders and canonical `(T,K,D)` sequences | `behavior-lab` | Includes CalMS21, MABe22, SUBTLE, Shank3KO, Rat7M, SLEAP. **SSOT entry point**: `behavior-lab/docs/conventions.md` — kept in sync with the code by `tests/test_conventions_doc.py`. Everything else is a pointer. |
